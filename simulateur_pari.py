@@ -24,7 +24,7 @@ def simuler_pari_dynamique():
         print("Erreur : Fonds insuffisants !")
         return
 
-    # Calcul de la probabilité pour t'aider à décider
+    # Calcul de la probabilité pour aider à décider
     cote_choisie = c1 if choix == "1" else (c2 if choix == "2" else cx)
     prob = (1 / cote_choisie) * 100
     print(f"Probabilité estimée par le site : {prob:.2f}%")
